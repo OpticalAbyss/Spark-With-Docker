@@ -51,8 +51,8 @@ Ensure you have the following installed:
 netflix-spark-eda/
 ├── data/
 │   └── netflix_titles.csv       # Netflix dataset
-├── scripts/
-│   └── netflix_eda.py           # PySpark script for EDA
+|   └── scripts/
+│       └── netflix_eda.py           # PySpark script for EDA
 └── README.md                    # Project documentation
 ```
 
