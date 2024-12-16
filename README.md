@@ -122,7 +122,7 @@ df.show(5)
      .show()
    ```
 
-## **Sample Output**
+## **Output**
 
 ### **Example Insights**:
 1. **Count of Movies vs TV Shows**:
