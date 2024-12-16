@@ -161,13 +161,6 @@ df.show(5)
 
 - Access the Spark UI on **`http://localhost:4040`** to view job execution details.
 
-## **How to Contribute**
-
-Feel free to contribute by:
-- Improving the analysis.
-- Adding more insights.
-- Optimizing the PySpark code.
-
 ## **Author**
 
 - **Obyss**
