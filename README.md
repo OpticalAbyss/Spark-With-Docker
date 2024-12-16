@@ -39,10 +39,10 @@ Ensure you have the following installed:
 2. **Run Spark in a Docker Container**:  
    Start the container and mount your project folder:
    ```bash
-   docker run -it -p 4040:4040 -v $(pwd):/data apache/spark-py bash
+   docker run -it -p 4040:4040 -v ${PWD}:/data apache/spark-py bash
    ```
    - `-p 4040:4040`: Maps Spark UI to port 4040.
-   - `-v $(pwd):/data`: Maps your local directory to `/data` inside the container.
+   - `-v ${PWD}:/data`: Maps your local directory to `/data` inside the container.
 
 ## **Project Files**
 
@@ -51,8 +51,8 @@ Ensure you have the following installed:
 netflix-spark-eda/
 ├── data/
 │   └── netflix_titles.csv       # Netflix dataset
-├── scripts/
-│   └── netflix_eda.py           # PySpark script for EDA
+|   └── scripts/
+│       └── netflix_eda.py           # PySpark script for EDA
 └── README.md                    # Project documentation
 ```
 
@@ -122,7 +122,7 @@ df.show(5)
      .show()
    ```
 
-## **Sample Output**
+## **Output**
 
 ### **Example Insights**:
 1. **Count of Movies vs TV Shows**:
@@ -160,13 +160,6 @@ df.show(5)
 ## **Spark UI**
 
 - Access the Spark UI on **`http://localhost:4040`** to view job execution details.
-
-## **How to Contribute**
-
-Feel free to contribute by:
-- Improving the analysis.
-- Adding more insights.
-- Optimizing the PySpark code.
 
 ## **Author**
 
